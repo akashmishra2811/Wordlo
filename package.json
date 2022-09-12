@@ -4,6 +4,7 @@
   "description": "word guessing game",
   "main": "index.js",
   "scripts": {
+    "heroku-postbuild": "npm run build"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -12,7 +13,11 @@
   },
   "devDependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "engines": {
+        "npm": "5.6.0",
+        "node": "8.10.0"
+      },
   "author": "Akash Mishra",
   "license": "ISC"
 }
