@@ -1,0 +1,96 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia,'Times New Roman',Times,serif;
+}
+
+body{
+  width  :100%;
+  background-color: #1a0000;
+  height: 100vh;
+
+}
+.header
+{
+  width  :100%;
+}
+
+.header h1
+{
+ color: white;
+ text-align: center;
+}
+
+.words
+{
+  width: 100%;
+}
+.words-container
+{
+  width: 100%;
+  display: flex;
+  /* eka kahlti ek yenya sathi  */
+  flex-direction: column;
+   align-items: center;
+}
+
+.words-row
+{
+  display: flex;
+  flex-direction: row;
+    margin-left: 0.4em;
+}
+
+.word
+{
+  border:1px solid #353535;
+  width : 4em;
+  height: 4em;
+  margin-right: .4em;
+  margin-bottom: .4em;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.keyboard{
+  width: 100%;
+}
+.keyboard-container
+{
+  width: 100%;
+  display: flex;
+  /* eka kahlti ek yenya sathi  */
+  flex-direction: column;
+   align-items: center;
+}
+.keyboard button{
+  background-color: #1a0000;
+  color: #fff;
+  border: 1px solid #353535;
+  padding: 1em;
+  cursor: pointer;
+  margin-right: .4em;
+  margin-bottom: .4em;
+
+
+}
+.word-green{
+  background-color: #52BE80  !important;
+  color: white !important;
+}
+
+
+.word-yellow{
+  background-color: #F8C471 !important;
+  color: white  !important;
+}
+
+.word-grey{
+  background-color: #839192  !important;
+  color: white  !important;
+}
